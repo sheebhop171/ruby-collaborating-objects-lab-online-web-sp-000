@@ -1,4 +1,4 @@
-
+require 'pry'
 
 class Artist
 
@@ -24,9 +24,14 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    if artist.name = name
+    if (self.name == name)
+      self
     else
-      self.artist = Artist.new(name)
+      Artist.new(name)
     end
+  end
+
+  def print_songs
+    puts self.songs
   end
 end
