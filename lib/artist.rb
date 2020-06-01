@@ -15,7 +15,7 @@ class Artist
     @@all
   end
 
-  def add_song(song)
+  def add_song(sname)
     songs << song
   end
 
