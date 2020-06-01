@@ -36,3 +36,4 @@ class Artist
      puts x.name
   end
 end
+end
