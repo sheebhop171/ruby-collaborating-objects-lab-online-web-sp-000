@@ -9,6 +9,7 @@ class MP3Importer
   end
 
   def files
+    binding.pry
     filename = Dir.entires(path)
   end
 
