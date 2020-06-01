@@ -9,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    filename = Dir.entries(path) t
+    filename = Dir.entries(path)
   end
 
   def import(list_of_filenames)
