@@ -11,7 +11,6 @@ class MP3Importer
   def files
     binding.pry
     filename = Dir.entries(path)
-    filename.split(" - ")
   end
 
   def import(list_of_filenames)
