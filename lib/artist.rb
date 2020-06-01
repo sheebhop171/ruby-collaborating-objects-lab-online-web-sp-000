@@ -27,7 +27,7 @@ class Artist
     @@all.find {|artist| artist.name == name}
     #binding.pry
     if name == name
-      self
+      Artist
     else
       Artist.new(name)
     end
