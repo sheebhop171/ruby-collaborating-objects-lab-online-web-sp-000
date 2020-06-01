@@ -24,7 +24,7 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    artist = ll.find {|artist| artist.name == name}
+    artist = all.find {|artist| artist.name == name}
     #binding.pry
     if artist != nil
       artist
