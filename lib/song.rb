@@ -29,5 +29,7 @@ class Song
     name = new_song[1]
     # binding.pry
     song = self.new
+    song.name = name
+    song.artist_name = artist_name
   end
 end
